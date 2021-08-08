@@ -5,9 +5,19 @@ body {
 p {
     line-height: 1.75;
 }
+
+a.btn-primary {
+    text-decoration: none;
+}
+
 a {
     color: #fed136;
 }
+
+button {
+    cursor: pointer;
+}
+
 a.active,
 a:active,
 a:focus,
@@ -24,6 +34,11 @@ h6 {
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
 }
+
+h4 {
+    text-align: center;
+}
+
 section {
     padding: 100px 0;
 }
@@ -40,6 +55,15 @@ section h3.section-subheading {
     text-transform: none;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+
+#contact {
+    width: 80%;
+}
+
+form {
+    width: 100%;
+}
+
 @media (min-width: 768px) {
     section {
         padding: 150px 0;
@@ -84,7 +108,7 @@ body {
 .offcanvas-aside {
     position: fixed;
     height: 100%;
-    background: red;
+    background: rgba(219, 211, 211, 0.986);
     width: 80vw;
     right: -80vw;
     z-index: 10;
@@ -106,11 +130,11 @@ body {
 
 @media (min-width: 575px) {
     .offcanvas-btn-open {
-        margin-right: 30vw;
+        margin-right: 35vw;
     }
     .offcanvas-aside {
-        width: 30vw;
-        right: -30vw;
+        width: 35vw;
+        right: -35vw;
     }
 }
 .offcanvas-aside-open {
@@ -190,7 +214,7 @@ body {
 header.masthead {
     text-align: center;
     color: white;
-    background-image: url("../img/header-bg.jpg");
+    background-image: url("../img/prog.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -224,7 +248,7 @@ header.masthead .intro-text .intro-heading {
         padding-bottom: 200px;
     }
     header.masthead .intro-text .intro-lead-in {
-        font-size: 40px;
+        font-size: 48px;
         font-style: italic;
         line-height: 40px;
         margin-bottom: 25px;
@@ -631,13 +655,13 @@ ul.social-buttons li a:hover {
     align-items: center;
 }
 .text-primary {
-    color: #fed136 !important;
+    color: black !important;
 }
 .btn-primary {
     font-weight: 700;
     color: white;
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: black;
+    background-color: black;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
 }
@@ -645,19 +669,19 @@ ul.social-buttons li a:hover {
 .btn-primary:focus {
     color: white;
     border-color: #b48b01;
-    background-color: #fec503;
+    background-color: black;
 }
 .btn-primary:hover {
     color: white;
-    border-color: #f6bf01;
-    background-color: #fec503;
+    border-color: black;
+    background-color: #4e493a;
 }
 .btn-primary.active,
 .btn-primary:active,
 .open > .btn-primary.dropdown-toggle {
     color: white;
-    border-color: #f6bf01;
-    background-color: #fec503;
+    border-color: #46443d;
+    background-color: black;
 }
 .btn-primary.active.focus,
 .btn-primary.active:focus,
@@ -686,11 +710,11 @@ ul.social-buttons li a:hover {
 fieldset[disabled] .btn-primary.focus,
 fieldset[disabled] .btn-primary:focus,
 fieldset[disabled] .btn-primary:hover {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #5d5a4d;
+    background-color: black;
 }
 .btn-primary .badge {
-    color: #fed136;
+    color: black;
     background-color: white;
 }
 .btn-xl {
@@ -699,28 +723,28 @@ fieldset[disabled] .btn-primary:hover {
     padding: 20px 40px;
     border-radius: 3px;
     color: white;
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #646156;
+    background-color: black;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
 }
 .btn-xl.focus,
 .btn-xl:focus {
     color: white;
-    border-color: #b48b01;
-    background-color: #fec503;
+    border-color: #6b675a;
+    background-color: black;
 }
 .btn-xl:hover {
     color: white;
-    border-color: #f6bf01;
-    background-color: #fec503;
+    border-color: black;
+    background-color: #58564d;
 }
 .btn-xl.active,
 .btn-xl:active,
 .open > .btn-xl.dropdown-toggle {
     color: white;
-    border-color: #f6bf01;
-    background-color: #fec503;
+    border-color: #615f57;
+    background-color: black;
 }
 .btn-xl.active.focus,
 .btn-xl.active:focus,
@@ -732,8 +756,8 @@ fieldset[disabled] .btn-primary:hover {
 .open > .btn-xl.dropdown-toggle:focus,
 .open > .btn-xl.dropdown-toggle:hover {
     color: white;
-    border-color: #b48b01;
-    background-color: #dcab01;
+    border-color: #161514;
+    background-color: #5a574e;
 }
 .btn-xl.active,
 .btn-xl:active,
@@ -749,11 +773,11 @@ fieldset[disabled] .btn-primary:hover {
 fieldset[disabled] .btn-xl.focus,
 fieldset[disabled] .btn-xl:focus,
 fieldset[disabled] .btn-xl:hover {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #20201e;
+    background-color: #524e43;
 }
 .btn-xl .badge {
-    color: #fed136;
+    color: #1f1e1a;
     background-color: white;
 }
 

@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.quest {
+    margin-top: 4rem;
+}
+
+img {
+    height: 200px;
+    width: 300px;
+    display: block;
+    margin: auto auto auto auto;
+}
+
+.restart-button {
+    display: none;
+}
+
+button {
+    display: block;
+    margin: 5px auto 5px auto;
+    cursor: pointer;
+}

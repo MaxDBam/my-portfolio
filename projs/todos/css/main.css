@@ -1,0 +1,78 @@
+body {
+    background-color: lightblue;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+
+.done {
+    text-decoration: line-through;
+}
+
+.filter-container {
+    background-color: whitesmoke;
+    overflow: hidden;
+    padding: 10px;
+    text-align: center;
+}
+
+.tab-option {
+    border: 1px solid;
+    width: 4.7rem;
+    margin: auto;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: inherit;
+    text-align: center;
+}
+
+.tab-option:hover {
+    border: 1px solid lightgray;
+}
+
+.tab-option.active {
+    border: 1px solid lightgray;
+}
+
+.todo-list {
+    /* display: none; */
+    font-size: 1.5em;
+}
+
+.hide {
+    display: none;
+}
+
+.show-button {
+    display: inline-block;
+}
+
+.remove-btn:hover {
+    cursor: pointer;
+}
+
+.up-btn {
+    cursor: pointer;
+}
+
+
+.down-btn {
+    cursor: pointer;
+}
+
+.disabled-btn {
+    cursor: not-allowed;
+}
+
+button {
+    width: 2rem;
+    height: 2rem;
+}
+
+img {
+    width: 1rem;
+}

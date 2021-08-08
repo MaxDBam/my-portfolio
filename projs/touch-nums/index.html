@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Touch the Numbers</title>
+</head>
+<body onload="initGame(gEasyDifficultyArray)">
+    <h1>Touch the Numbers</h1>
+    <div>
+        <button onclick="initGame(gEasyDifficultyArray)">Easy</button>
+        <button onclick="initGame(gMediumDifficultyArray)">Medium</button>
+        <button onclick="initGame(gHardDifficultyArray)">Hard</button>
+    </div>
+    <h2>Find number: <span></span></h2>
+    <h3>Time: <span class="minutes">00</span>:<span class="seconds">00</span>.<span class="milliseconds">000</span></h3>
+    <table></table>
+</body>
+<script src="touch-nums.js"></script>
+</html>

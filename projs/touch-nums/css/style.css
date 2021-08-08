@@ -1,0 +1,30 @@
+h1, h2, h3 {
+    text-align: center;
+}
+
+table {
+    margin: auto auto;
+}
+
+div {
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+}
+
+td {
+    cursor: pointer;
+    text-align: center;
+    width: 15px;
+}
+
+.clicked {
+    background-color: beige;
+}
+
+.unclicked {
+    background-color: brown;
+    color: whitesmoke;
+}
