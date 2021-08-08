@@ -42,16 +42,17 @@ function checkAnswer(optIdx) {
     if(gCurrQuestIdx >= gQuests.length) {
         return;
     }
+    
     if (optIdx === gQuests[gCurrQuestIdx].correctOptIndex) {
         gCurrQuestIdx++;
-    } 
-
-    if (gCurrQuestIdx < gQuests.length) {
-        renderQuests();
-    } else {
-        console.log('Victorious');
-        var restartBtn = document.querySelector('.restart-button');
-        restartBtn.innerText = 'Restart';
-        restartBtn.style.display = 'block';
+        if (gCurrQuestIdx >= gQuests.length) {
+            console.log('Victorious');
+            var restartBtn = document.querySelector('.restart-button');
+            restartBtn.innerText = 'Restart';
+            restartBtn.style.display = 'block'
+            return;
+        } else {
+            renderQuests();
+        }
     } 
 }
